@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="accept_quotation_template" name="Accept Quotation Thank You">
+    <t t-call="website.layout">
+      <div class="container mt-5">
+        <h2>Thank You for Accepting!</h2>
+        <p>Your quotation <strong t-esc="order.name"/> has been accepted.</p>
+      </div>
+    </t>
+  </template>
+</odoo>
+
+
+
