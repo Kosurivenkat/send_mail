@@ -10,6 +10,7 @@
     'category': 'Sales',
     'depends': ['sale'],
     'data': [
+        'security/ir.model.access.csv',
         'views/custom_sale.xml',
         'data/external.xml',
         'views/template.xml'
